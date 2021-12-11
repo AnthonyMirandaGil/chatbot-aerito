@@ -1,0 +1,1608 @@
+version: "2.0"
+
+stories:
+
+- story: PM001F1
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_procedimiento_ingresante_form
+    - action: utter_matricula_procedimiento_ingresante
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_procedimiento_regular_form
+    - action: utter_matricula_procedimiento_regular
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: PM001F2
+  steps:
+    - intent: menu_principal
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_procedimiento_ingresante_form
+    - action: utter_matricula_procedimiento_ingresante
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_procedimiento_regular_form
+    - action: utter_matricula_procedimiento_regular
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: PM002F1
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_procedimiento_regular_form
+    - action: utter_matricula_procedimiento_regular
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_cronograma_form
+    - action: utter_informar_matricula_cronograma
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: PM002F2
+  steps:
+    - intent: menu_principal
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_procedimiento_regular_form
+    - action: utter_matricula_procedimiento_regular
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_cronograma_form
+    - action: utter_informar_matricula_cronograma
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+    
+- story: PM003F1
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_cronograma_form
+    - action: utter_informar_matricula_cronograma
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_horarios_form
+    - action: utter_informar_matricula_horarios
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: PM003F2
+  steps:
+    
+    - intent: menu_principal
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_cronograma_form
+    - action: utter_informar_matricula_cronograma
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_horarios_form
+    - action: utter_informar_matricula_horarios
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: PM004F1
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_horarios_form
+    - action: utter_informar_matricula_horarios
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_solicitud_carnet_universitario_form
+    - action: utter_informar_solicitud_carnet_universitario
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: PM004F2
+  steps:
+    - intent: menu_principal
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_horarios_form
+    - action: utter_informar_matricula_horarios
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_solicitud_carnet_universitario_form
+    - action: utter_informar_solicitud_carnet_universitario
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: PM005F1
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_solicitud_carnet_universitario_form
+    - action: utter_informar_solicitud_carnet_universitario
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_pago_autoseguro_form
+    - action: utter_informar_pago_autoseguro_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: PM005F2
+  steps:
+    - intent: menu_principal
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_solicitud_carnet_universitario_form
+    - action: utter_informar_solicitud_carnet_universitario
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_pago_autoseguro_form
+    - action: utter_informar_pago_autoseguro_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: PM006F1
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_pago_autoseguro_form
+    - action: utter_informar_pago_autoseguro_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_rezagada_procedimiento_form
+    - action: utter_informar_matricula_rezagado_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: PM006F2
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_pago_autoseguro_form
+    - action: utter_informar_pago_autoseguro_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_rezagada_procedimiento_form
+    - action: utter_informar_matricula_rezagado_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: PM007F1
+  steps:
+    - intent: menu_principal
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_rezagada_procedimiento_form
+    - action: utter_informar_matricula_rezagado_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_problemas_matricula_form
+    - action: utter_informar_formulario_problemas_matricula
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: PM007F2
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_rezagada_procedimiento_form
+    - action: utter_informar_matricula_rezagado_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_problemas_matricula_form
+    - action: utter_informar_formulario_problemas_matricula
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: PM008F1
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_problemas_matricula_form
+    - action: utter_informar_formulario_problemas_matricula
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_procedimiento_regular_form
+    - action: utter_matricula_procedimiento_regular
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: PM008F2
+  steps:
+    - intent: menu_principal
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_problemas_matricula_form
+    - action: utter_informar_formulario_problemas_matricula
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_procedimiento_regular_form
+    - action: utter_matricula_procedimiento_regular
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: R001F1
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_parcial_procedimiento_form
+    - action: utter_informar_retiro_parcial_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_parcial_fechas_form
+    - action: utter_informar_retiro_parcial_fechas
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: R001F2
+  steps:
+    - intent: menu_principal
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_parcial_procedimiento_form
+    - action: utter_informar_retiro_parcial_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_parcial_fechas_form
+    - action: utter_informar_retiro_parcial_fechas
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida 
+
+- story: R002F1
+  steps:
+    - intent: menu_principal
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_parcial_fechas_form
+    - action: utter_informar_retiro_parcial_fechas
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_total_procedimiento_form
+    - action: utter_informar_retiro_total_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: R002F2
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_parcial_fechas_form
+    - action: utter_informar_retiro_parcial_fechas
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_total_procedimiento_form
+    - action: utter_informar_retiro_total_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: R003F1
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_total_procedimiento_form
+    - action: utter_informar_retiro_total_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_total_fechas_form
+    - action: utter_informar_retiro_total_fechas
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: R003F2
+  steps:
+    - intent: menu_principal
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_total_procedimiento_form
+    - action: utter_informar_retiro_total_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_total_fechas_form
+    - action: utter_informar_retiro_total_fechas
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: R004F1
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_total_fechas_form
+    - action: utter_informar_retiro_total_fechas
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_motivos_procede_retiro_total_form
+    - action: utter_informar_motivos_procede_retiro_total
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: R004F2
+  steps:
+    - intent: menu_principal
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_total_fechas_form
+    - action: utter_informar_retiro_total_fechas
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_motivos_procede_retiro_total_form
+    - action: utter_informar_motivos_procede_retiro_total
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: R005F1
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_motivos_procede_retiro_total_form
+    - action: utter_informar_motivos_procede_retiro_total
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_total_fechas_form
+    - action: utter_informar_retiro_total_fechas
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: R005F2
+  steps:
+    - intent: menu_principal
+    - action: utter_formulario_temas
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_motivos_procede_retiro_total_form
+    - action: utter_informar_motivos_procede_retiro_total
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_total_fechas_form
+    - action: utter_informar_retiro_total_fechas
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: TPA001F1
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reserva_matricula_procedimiento_form
+    - action: utter_informar_reserva_matricula_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reserva_matricula_fechas_form
+    - action: utter_informar_reserva_matricula_fechas
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: TPA001F2
+  steps:
+    - intent: menu_principal
+    - action: utter_formulario_temas
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reserva_matricula_procedimiento_form
+    - action: utter_informar_reserva_matricula_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reserva_matricula_fechas_form
+    - action: utter_informar_reserva_matricula_fechas
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: TPA002F1
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reserva_matricula_fechas_form
+    - action: utter_informar_reserva_matricula_fechas
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reincorporacion_procedimiento_form
+    - action: utter_informar_reincorporacion_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: TPA002F2
+  steps:
+    - intent: menu_principal
+    - action: utter_formulario_temas
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reserva_matricula_fechas_form
+    - action: utter_informar_reserva_matricula_fechas
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reincorporacion_procedimiento_form
+    - action: utter_informar_reincorporacion_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: TPA003F1
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reincorporacion_procedimiento_form
+    - action: utter_informar_reincorporacion_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reincorporacion_fechas_form
+    - action: utter_informar_reincorporacion_fechas
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: TPA003F2
+  steps:
+    - intent: menu_principal
+    - action: utter_formulario_temas
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reincorporacion_procedimiento_form
+    - action: utter_informar_reincorporacion_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reincorporacion_fechas_form
+    - action: utter_informar_reincorporacion_fechas
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: TPA004F1
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reincorporacion_fechas_form
+    - action: utter_informar_reincorporacion_fechas
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_solicitud_constancia_matricula_procedimiento_form
+    - action: utter_informar_solicitud_constancia_matricula_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: TPA004F2
+  steps:
+    - intent: menu_principal
+    - action: utter_formulario_temas
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reincorporacion_fechas_form
+    - action: utter_informar_reincorporacion_fechas
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_solicitud_constancia_matricula_procedimiento_form
+    - action: utter_informar_solicitud_constancia_matricula_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: TPA005F1
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_solicitud_constancia_matricula_procedimiento_form
+    - action: utter_informar_solicitud_constancia_matricula_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_constancia_notas_procedimiento_form
+    - action: utter_informar_constancia_notas_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: TPA005F2
+  steps:
+    - intent: menu_principal
+    - action: utter_formulario_temas
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_solicitud_constancia_matricula_procedimiento_form
+    - action: utter_informar_solicitud_constancia_matricula_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_constancia_notas_procedimiento_form
+    - action: utter_informar_constancia_notas_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: TPA006F1
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_constancia_notas_procedimiento_form
+    - action: utter_informar_constancia_notas_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_constancia_de_estudios_procedimiento_form
+    - action: utter_informar_constancia_de_estudios_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: TPA006F2
+  steps:
+    - intent: menu_principal
+    - action: utter_formulario_temas
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_constancia_notas_procedimiento_form
+    - action: utter_informar_constancia_notas_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_constancia_de_estudios_procedimiento_form
+    - action: utter_informar_constancia_de_estudios_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: TPA007F1
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_constancia_de_estudios_procedimiento_form
+    - action: utter_informar_constancia_de_estudios_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reserva_matricula_procedimiento_form
+    - action: utter_informar_reserva_matricula_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: TPA007F2
+  steps:
+    - intent: menu_principal
+    - action: utter_formulario_temas
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_constancia_de_estudios_procedimiento_form
+    - action: utter_informar_constancia_de_estudios_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reserva_matricula_procedimiento_form
+    - action: utter_informar_reserva_matricula_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: CA0001
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: contactar_aera
+    - action: utter_contactar_aera
+    - action: utter_mas_ayuda_formulario_luego_contactar_aera
+
+- story: CD001
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_directa
+    - action: utter_consulta_directa
+
+- story: say goodbye
+  steps:
+    - intent: despedida
+    - action: utter_despedida
+
+    
+- story: CMM001
+  steps:
+    - intent: consulta_matricula_procedimiento
+    - action: utter_desanbigue_procedimiento_matricula
+    - intent: consulta_matricula_procedimiento_ingresante
+    - action: utter_matricula_procedimiento_ingresante
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CMM002
+  steps:
+    - intent: consulta_matricula_procedimiento
+    - action: utter_desanbigue_procedimiento_matricula
+    - intent: consulta_matricula_procedimiento_regular
+    - action: utter_matricula_procedimiento_regular
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CM_00001F1
+  steps:
+    - intent: consulta_matricula_cronograma
+    - action: utter_informar_matricula_cronograma
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_matricula_horarios
+    - action: utter_informar_matricula_horarios
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CM_00001F2
+  steps:
+    - intent: consulta_matricula_cronograma
+    - action: utter_informar_matricula_cronograma
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_matricula_horarios
+    - action: utter_informar_matricula_horarios
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CM_00001F3
+  steps:
+    - intent: consulta_matricula_cronograma
+    - action: utter_informar_matricula_cronograma
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_matricula_horarios
+    - action: utter_informar_matricula_horarios
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CM_00003F1
+  steps:
+    - intent: consulta_reserva_matricula_procedimiento
+    - action: utter_informar_reserva_matricula_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_reserva_matricula_fechas
+    - action: utter_informar_reserva_matricula_fechas
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CM_00003F2
+  steps:
+    - intent: consulta_reserva_matricula_fechas
+    - action: utter_informar_reserva_matricula_fechas
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_reserva_matricula_procedimiento
+    - action: utter_informar_reserva_matricula_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_formato_solicitud_reserva_matricula
+    - action: utter_informar_formato_solicitud_reserva_matricula
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CM_00003F3
+  steps:
+    - intent: consulta_reserva_matricula_procedimiento
+    - action: utter_informar_reserva_matricula_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_reserva_matricula_fechas
+    - action: utter_informar_reserva_matricula_fechas
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_formato_solicitud_reserva_matricula
+    - action: utter_informar_formato_solicitud_reserva_matricula
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CM_00004
+  steps:
+    - intent: consulta_horario_atencion
+    - action: utter_informar_horario_atencion
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_reserva_matricula_procedimiento
+    - action: utter_informar_reserva_matricula_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_reserva_matricula_fechas
+    - action: utter_informar_reserva_matricula_fechas
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CM_00005F1
+  steps:
+    - intent: consulta_reincorporacion_procedimiento
+    - action: utter_informar_reincorporacion_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_reincorporacion_fechas
+    - action: utter_informar_reincorporacion_fechas
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_formato_solicitud_reincorporacion
+    - action: utter_informar_formato_solicitud_reincorporacion
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CM_00005F2
+  steps:
+    - intent: consulta_reincorporacion_procedimiento
+    - action: utter_informar_reincorporacion_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_formato_solicitud_reincorporacion
+    - action: utter_informar_formato_solicitud_reincorporacion
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_reincorporacion_fechas
+    - action: utter_informar_reincorporacion_fechas
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CM_00005F3
+  steps: 
+    - intent: consulta_estado_tramites_reincorporacion
+    - action: utter_informar_estado_tramites_reincorparacion
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CM_00005F4
+  steps:
+    - intent: consulta_reincorporacion_procedimiento
+    - action: utter_informar_reincorporacion_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_reincorporacion_costo
+    - action: utter_informar_reincorporacion_costo 
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CM_00009
+  steps:
+    - intent: consulta_problemas_matricula_proceso_culminado
+    - action: utter_informar_pasa_a_matricula_rezagada
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_matricula_rezagada_pago_procedimiento
+    - action: utter_informar_matricula_rezagado_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CM_00013F1
+  steps:
+    - intent: consulta_problemas_matricula
+    - action: utter_informar_formulario_problemas_matricula
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CG_00012
+  steps:
+    - intent: consulta_problemas_matricula
+    - action: utter_informar_formulario_problemas_matricula
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CG_00013F1
+  steps:
+    - intent: consulta_solicitud_correo_institucional_procedimiento
+    - action: utter_informar_solicitud_correo_institucional_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CG_00013F2
+  steps:
+    - intent: consulta_entrega_carnet_rezagada
+    - action: utter_informar_horario_entrega_carnet_rezagada
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CG_00015F1
+  steps:
+    - intent: consulta_matricula_pago_autoseguro_fuera_fecha
+    - action: utter_informar_matricula_pago_autoseguro_fuera_fecha
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_matricula_rezagada_pago_procedimiento
+    - action: utter_informar_matricula_rezagado_pago_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CG_00015F2
+  steps:
+    - intent: consulta_matricula_rezagado_pago_procedimiento
+    - action: utter_informar_matricula_rezagado_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_matricula_rezagado_procedimiento_incompletos
+    - action: utter_informar_matricula_rezagado_procedimiento_posterior_pago
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CG_00022
+  steps:
+    - intent: consulta_problemas_matricula_no_habilitada
+    - action: utter_informar_verificacion_requsistos_matricula_y_formulario
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CG_00024F1
+  steps:
+    - intent: consulta_matricula_rezagado_procedimiento_incompleto
+    - action: utter_informar_matricula_rezagado_procedimiento_posterior_pago
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CG_00024F2
+  steps:
+    - intent: consulta_matricula_rezagado_procedimiento_incompleto
+    - action: utter_informar_matricula_rezagado_procedimiento_posterior_pago
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_cursos_horarios
+    - action: utter_informar_horario_cursos
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CG_00027
+  steps:
+    - intent: consulta_pago_autoseguro
+    - action: utter_informar_pago_autoseguro_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CG_00028
+  steps:
+    - intent: consulta_pago_autoseguro
+    - action: utter_informar_pago_autoseguro_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_matricula_pago_autoseguro_fuera_fecha
+    - action: utter_informar_matricula_pago_autoseguro_fuera_fecha
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CG_00028F1
+  steps:
+    - intent: consulta_pago_autoseguro
+    - action: utter_informar_pago_autoseguro_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_matricula_pago_autoseguro_fuera_fecha
+    - action: utter_informar_matricula_pago_autoseguro_fuera_fecha
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CG_00028F2
+  steps:
+    - intent: consulta_pago_autoseguro
+    - action: utter_informar_pago_autoseguro_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CG_00028F3
+  steps:
+    - intent: consulta_matricula_pago_autoseguro_fechas
+    - action: utter_informar_pago_autoseguro_fechas
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_pago_autoseguro
+    - action: utter_informar_pago_autoseguro_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CG_00028F4
+  steps:
+    - intent: consulta_matricula_pago_autoseguro_fuera_fecha
+    - action: utter_informar_matricula_pago_autoseguro_fuera_fecha
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_matricula_pago_autoseguro_fuera_fecha
+    - action: utter_informar_matricula_pago_autoseguro_fuera_fecha
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_pago_autoseguro
+    - action: utter_informar_pago_autoseguro_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CG_00029
+  steps:
+    - intent: consulta_pago_autoseguro
+    - action: utter_informar_pago_autoseguro_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_matricula_pago_autoseguro_fechas
+    - action: utter_informar_pago_autoseguro_fechas
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_matricula_cronograma
+    - action: utter_informar_matricula_cronograma
+    - intent: confirmacion
+    - action: utter_requirir_mas
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CG_00030
+  steps:
+    - intent: consulta_matricula_cronograma
+    - action: utter_informar_matricula_cronograma
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_matricula_pago_autoseguro_fechas
+    - action: utter_informar_pago_autoseguro_fechas
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CG_00031
+  steps:
+    - intent: consulta_matricula_cronograma
+    - action: utter_informar_matricula_cronograma
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_matricula_pago_autoseguro_fechas
+    - action: utter_informar_pago_autoseguro_fechas
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CG_00032
+  steps:
+    - intent: consulta_matricula_rezagada_procedimiento
+    - action: utter_informar_matricula_rezagado_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CG_00033
+  steps:
+    - intent: consulta_matricula_pago_autoseguro_fuera_fecha
+    - action: utter_informar_matricula_pago_autoseguro_fuera_fecha
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_posibilidad_medida_adicional
+    - action: utter_sugerir_contactar_oficina
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: CH_00001F1
+  steps:
+    - intent: consulta_cambio_seccion
+    - action: utter_informar_cambio_seccion_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_formulario_tiempo_de_respuesta
+    - action: utter_informar_tiempo_respuesta_formulario
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CH_00001F2
+  steps:
+    - intent: consulta_cambio_seccion
+    - action: utter_informar_cambio_seccion_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_formulario_tiempo_de_respuesta
+    - action: utter_informar_tiempo_respuesta_formulario
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_contacto_aera
+    - action: utter_informar_contacto_aera
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CH_00001F3
+  steps:
+    - intent: consulta_cambio_seccion
+    - action: utter_informar_cambio_seccion_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CH_00001F4
+  steps:
+    - intent: consulta_cambio_seccion
+    - action: utter_informar_cambio_seccion_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CH_00001F5
+  steps:
+    - intent: consulta_cambio_seccion
+    - action: utter_informar_cambio_seccion_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_cursos_horarios
+    - action: utter_informar_horario_cursos
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CH_00001F6
+  steps:
+    - intent: consulta_matricula_horarios
+    - action: utter_informar_matricula_horarios
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_cambio_seccion
+    - action: utter_informar_cambio_seccion_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CH_00002F1
+  steps:
+    - intent: consulta_perdida_turno_matricula
+    - action: utter_informar_perdida_turno_pasa_a_matricula_rezagado
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CH_00002F2
+  steps:
+    - intent: consulta_perdida_turno_matricula
+    - action: utter_informar_perdida_turno_pasa_a_matricula_rezagado
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_posibilidad_medida_adicional
+    - action: utter_sugerir_contactar_oficina
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CH_00002F3
+  steps:
+    - intent: consulta_perdida_turno_matricula
+    - action: utter_informar_perdida_turno_pasa_a_matricula_rezagado
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_posibilidad_medida_adicional
+    - action: utter_sugerir_contactar_oficina
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CH_00002F4
+  steps:
+    - intent: consulta_perdida_turno_matricula
+    - action: utter_informar_perdida_turno_pasa_a_matricula_rezagado
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_matricula_rezagada_procedimiento
+    - action: utter_informar_matricula_rezagado_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CH_00003
+  steps:
+    - intent: solicitar_asistencia
+    - action: utter_requerir_consulta
+    - intent: consulta_retiro_parcial_procedimiento
+    - action: utter_informar_retiro_parcial_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_retiro_parcial_fechas
+    - action: utter_informar_retiro_parcial_fechas
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CM_00002F1
+  steps:
+    - intent: consulta_cursos_horarios
+    - action: utter_informar_cursos_horarios
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CM_00002F2
+  steps:
+    - intent: consulta_cursos_horarios
+    - action: utter_informar_cursos_horarios
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta 
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_cambio_seccion
+    - action: utter_informar_cambio_seccion_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CM_00008F1
+  steps:
+    - intent: consulta_solicitud_constancia_matricula_procedimiento
+    - action: utter_informar_solicitud_constancia_matricula_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_formato_solicitud_constancia_matricula
+    - action: utter_informar_formato_solicitud_constancia_matricula
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_constancia_matricula_pago
+    - action: utter_informar_pago_solicitud_constancia_matricula_
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CM_00008F2
+  steps:
+    - intent: consulta_solicitud_constancia_matricula_procedimiento
+    - action: utter_informar_solicitud_constancia_matricula_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_formato_solicitud_constancia_matricula
+    - action: utter_informar_formato_solicitud_constancia_matricula
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_constancia_matricula_pago
+    - action: utter_informar_pago_solicitud_constancia_matricula_
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00002F1
+  steps:
+    - intent: consulta_retiro_total_procedimiento
+    - action: utter_informar_retiro_total_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_retiro_total_fechas
+    - action: utter_informar_retiro_total_fechas
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00002F2
+  steps:
+    - intent: consulta_retiro_total_procedimiento
+    - action: utter_informar_retiro_total_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_retiro_total_fechas
+    - action: utter_informar_retiro_total_fechas
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_formato_solicitud_retiro_total
+    - action: utter_informar_formato_solicitud_retiro_total
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00003F1
+  steps:
+    - intent: consulta_retiro_parcial_unico_curso
+    - action: utter_informar_retiro_unico_curso_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00004
+  steps:
+    - intent: consulta_motivos_procede_retiro_total
+    - action: utter_informar_motivos_procede_retiro_total
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_retiro_total_requisitos_documentos_justificacion
+    - action: utter_informar_requisitos_documentos_justificacion
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00005F1
+  steps:
+    - intent: consulta_retiro_total_requisitos
+    - action: utter_informar_retiro_total_requisitos
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_motivos_procede_retiro_total
+    - action: utter_informar_motivos_procede_retiro_total
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_retiro_total_fechas
+    - action: utter_informar_retiro_total_fechas
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_retiro_total_lugar_recepcion_documentos
+    - action: utter_informar_retiro_total_lugar_recepcion_documentos
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00005F2
+  steps:
+    - intent: consulta_retiro_total_requisitos
+    - action: utter_informar_retiro_total_requisitos
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_motivos_procede_retiro_total
+    - action: utter_informar_motivos_procede_retiro_total
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_retiro_total_fechas
+    - action: utter_informar_retiro_total_fechas
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_retiro_total_lugar_recepcion_documentos
+    - action: utter_informar_retiro_total_lugar_recepcion_documentos
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00009
+  steps:
+    - intent: consulta_retiro_parcial_fechas
+    - action: utter_informar_retiro_parcial_fechas
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_retiro_parcial_cursos_repetidos
+    - action: utter_informar_reglamento_retiro_parcial_cursos_repetidos
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: CRR_00010F2
+  steps:
+    - intent: consulta_retiro_parcial_maximo_cursos
+    - action: utter_informar_retiro_parcial_maximo_cursos
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00011F1
+  steps:
+    - intent: consulta_confirmacion_retiro_parcial_procedimiento_solo_digital
+    - action: utter_informar_procedimiento_solo_digital
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_retiro_parcial_procedimiento
+    - action: utter_informar_retiro_parcial_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_retiro_parcial_requisitos_documentos
+    - action: utter_informar_retiro_parcial_requisitos_documentos
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00011F2
+  steps:
+    - intent: consulta_confirmacion_retiro_parcial_procedimiento_solo_digital
+    - action: utter_informar_procedimiento_solo_digital
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_retiro_parcial_procedimiento
+    - action: utter_informar_retiro_parcial_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_retiro_parcial_requisitos_documentos
+    - action: utter_informar_retiro_parcial_requisitos_documentos
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00014F1
+  steps:
+    - intent: consulta_retiro_parcial_estado
+    - action: utter_informar_estado_retiro_parcial_procesado
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00014F2
+  steps:
+    - intent: consulta_retiro_parcial_estado
+    - action: utter_informar_estado_retiro_parcial_procesado
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00015
+  steps:
+    - intent: consulta_retiro_total_procedimiento
+    - action: utter_informar_retiro_total_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00019
+  steps:
+    - intent: consulta_retiro_parcial_procedimiento
+    - action: utter_informar_retiro_parcial_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00020
+  steps:
+    - intent: consulta_retiro_parcial_electivo
+    - action: utter_informar_reglamento_retiro_parcial_electivo
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00021F1
+  steps:
+    - intent: consulta_problemas_realizar_retiro_total_primera
+    - action: utter_informar_primera_accion_problemas_realizar_retiro_total
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00021F2
+  steps:
+    - intent: consulta_problemas_realizar_retiro_total_primera
+    - action: utter_informar_primera_accion_problemas_realizar_retiro_total
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_problemas_realizar_retiro_total_segunda
+    - action: utter_informar_segunda_accion_problemas_realizar_retiro_total
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00024F1
+  steps:
+    - intent: consulta_problemas_realizar_retiro_parcial_primera
+    - action: utter_informar_primera_accion_problemas_realizar_retiro_parcial
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_problemas_realizar_retiro_parcial_segunda
+    - action: utter_informar_segunda_accion_problemas_realizar_retiro_parcial
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00024F2
+  steps:
+    - intent: consulta_problemas_realizar_retiro_parcial_primera
+    - action: utter_informar_primera_accion_problemas_realizar_retiro_parcial
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_problemas_realizar_retiro_parcial_segunda
+    - action: utter_informar_segunda_accion_problemas_realizar_retiro_parcial
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00025
+  steps:
+    - intent: consulta_retiro_parcial_unico_curso
+    - action: utter_informar_retiro_unico_curso_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CRR_00027
+  steps:
+    - intent: consulta_retiro_total_fechas
+    - action: utter_informar_retiro_total_fechas
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CP_00002F1
+  steps:
+    - intent: consulta_constancia_notas_procedimiento
+    - action: utter_informar_constancia_notas_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_certificado_tercio_quinto_o_decimo_superior
+    - action: utter_informar_solicitud_certificado_tercio_quinto_o_decimo_superior_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CP_00003
+  steps:
+    - intent: consulta_reincorporacion_procedimiento
+    - action: utter_informar_reincorporacion_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_reincorporacion_rezagada_procedimiento
+    - action: utter_informar_reincorporacion_rezagada_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CP_00002F2
+  steps:
+    - intent: consulta_constancia_notas_procedimiento
+    - action: utter_informar_constancia_notas_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_certificado_tercio_quinto_o_decimo_superior
+    - action: utter_informar_solicitud_certificado_tercio_quinto_o_decimo_superior_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CP_00006
+  steps:
+    - intent: consulta_constancia_notas_procedimiento
+    - action: utter_informar_constancia_notas_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_formato_solicitud_constancia_de_notas
+    - action: utter_informar_formato_solicitud_constancia_de_notas
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_encargado_recepcion_solicitud_constancia_notas
+    - action: utter_informar_encargado_recepcion_solicitud_constancia_notas
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: CP_00007
+  steps:
+    - intent: consulta_constancia_de_estudios_procedimiento
+    - action: utter_informar_constancia_notas_procedimiento
+    - action: utter_requerir_mas_form
+    - intent: confirmar_requerir_mas_ayuda
+    - action: utter_requerir_consulta
+    - intent: consulta_formato_solicitud_constancia_estudios
+    - action: utter_informar_formato_solicitud_constancia_estudios
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+    
+- story: CP_00020
+  steps:
+    - intent: consulta_estado_tramites_reincorporación
+    - action: utter_informar_estado_tramites_reincorporación
+    - action: utter_requerir_mas_form
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida

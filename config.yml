@@ -1,0 +1,24 @@
+language: es
+pipeline:
+- name: SpacyNLP
+  model: "es_core_news_md"
+  case_sensitive: False
+- name: SpacyTokenizer
+- name: LanguageModelFeaturizer
+  model_name: bert
+  model_weights: bert-base-multilingual-cased
+- name: RegexFeaturizer
+- name: DIETClassifier
+  epochs: 200
+- name: ResponseSelector
+  epochs: 100
+  constrain_similarities: true
+- name: FallbackClassifier
+  threshold: 0.5
+  
+policies:
+- name: MemoizationPolicy
+- name: TEDPolicy
+  max_history: 8
+  epochs: 200
+- name: RulePolicy

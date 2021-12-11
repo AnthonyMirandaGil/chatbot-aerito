@@ -1,0 +1,48 @@
+version: "2.0"
+
+rules:
+  - rule: path temas
+    steps:
+      - intent: saludo
+      - action: utter_saludo
+      - action: utter_formulario_temas
+  
+  - rule: path procesos de matricula
+    steps:
+      - intent: consulta_sobre_matricula
+      - action: utter_formulario_procesos_matricula
+  
+  - rule: path retiros
+    steps:
+      - intent: consulta_sobre_retiros
+      - action: utter_formulario_retiros
+  
+  - rule: path tramites y procesos academicos
+    steps:
+      - intent: consulta_tramites_y_procesos_academicos
+      - action: utter_formulario_tramites_procesos_academicos
+  
+  - rule: main menu
+    steps:
+       - intent: menu_principal
+       - action: utter_formulario_temas
+  
+  - rule: deny request more
+    steps:
+      - intent: denegar_mas_ayuda
+      - action: utter_despedida
+
+  - rule: reformular consulta
+    steps: 
+      - intent: reformular_consulta
+      - action: utter_escribir_consulta_clara
+  
+  
+  - rule: please rephrase
+    steps:
+      - intent: nlu_fallback
+      - action: utter_porfavor_reformule
+ # - rule: out-of-scope
+ #   steps:
+ #     - intent: fuera_de_alcance
+ #     - action: utter_fuera_alcance

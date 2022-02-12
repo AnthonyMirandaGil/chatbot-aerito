@@ -19,6 +19,7 @@ stories:
     - action: utter_mas_ayuda_formulario_luego_procesos_matricula
     - intent: denegar_mas_ayuda
     - action: utter_despedida
+    
 - story: PM001F2
   steps:
     - intent: menu_principal

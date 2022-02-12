@@ -500,7 +500,7 @@ responses:
   utter_informar_retiro_unico_curso_procedimiento:
     - text: Si esta inscrito en un solo curso y deseas retirarte, el procedimiento se llama retiro total, mayor información lo encontrara en el módulo de procedimientos de la página web.
   utter_informar_retiro_parcial_maximo_cursos:
-    - text: Primero debe verificar si su solicitud esta acorde con lo permitido en el reglamento de matrícula vigente y se encuentra dentro de las fechas de retiro parcial del calendario académico. También debe tomar en cuenta que no puede solicitar el retiro parcial de todos sus cursos, ya que ello se denomina retiro total.
+    - text: Se puede solicitar el retiro parcial de hasta tres (03) asignaturas. Pero en caso este matriculado en tres o menos cursos no puede solicitar retiro de todos sus cursos, ya que ello se denomina retiro total.
   utter_informar_primera_accion_problemas_realizar_retiro_parcial:
     - text: Primero debe verificar si su solicitud esta acorde con lo permitido en el reglamento de matrícula vigente y se encuentra dentro de las fechas de retiro parcial del calendario académico. También debe tomar en cuenta que no puede solicitar el retiro parcial de todos sus cursos, ya que ello se denomina retiro total.
   utter_informar_segunda_accion_problemas_realizar_retiro_parcial:

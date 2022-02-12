@@ -7,9 +7,8 @@ pipeline:
 - name: LanguageModelFeaturizer
   model_name: bert
   model_weights: bert-base-multilingual-cased
-- name: RegexFeaturizer
 - name: DIETClassifier
-  epochs: 200
+  epochs: 100
 - name: ResponseSelector
   epochs: 100
   constrain_similarities: true

@@ -832,6 +832,7 @@ nlu:
   examples: |
     - Ya llene el formulario, pero no recibo respuesta
     - Llene el formulario hace unos dias pero no tengo respuesta
+    
 - intent: consulta_perdida_turno_matricula
   examples: |
     - Hola, he tenido problemas de conexion y no llegue a matricularme que debe hacer
@@ -1497,6 +1498,7 @@ nlu:
     - cuanto debo pagar la matricula?
     - como puedo matricularme en este ciclo?
     - que debo presentar para la matricula ?
+
 - intent: nlu_fallback
   examples: |
     - -
